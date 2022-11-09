@@ -1,28 +1,28 @@
 <template>
   <div class="ladder-header">
     <div class="ladder-header-position">
-      Pos
+      Pos.
     </div>
     <div class="ladder-header-club">
-      Team
+      Mannschaft
     </div>
     <div class="ladder-header-played">
-      P
+      Sp
     </div>
     <div class="ladder-header-wins">
-      W
+      S
     </div>
     <div class="ladder-header-losses">
-      L
+      U
     </div>
     <div class="ladder-header-draws">
-      D
+      N
     </div>
     <div class="ladder-header-percentage">
-      %
+      TD
     </div>
     <div class="ladder-header-points">
-      Pts
+      Pkt
     </div>
   </div>
 </template>
