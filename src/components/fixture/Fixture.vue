@@ -1,17 +1,17 @@
 <template>
-  <h2>Fixture - Round {{roundNumber}}</h2>
+  <h2>Spielplan - {{roundNumber}}. Spieltag</h2>
   <span class="fixture-item-container" v-for="fixtureItem in fixtureData" :key="fixtureItem.id">
     <FixtureItem 
       :clubData="clubData"
-      :fixtureRoundNumber="fixtureItem.round.number"
+      :fixtureRoundNumber="fixtureItem.matchday"
       :roundNumber="roundNumber"
-      :timestamp="fixtureItem.match_start_date"
-      :venue="fixtureItem.venue.name"
-      :gameStatus="fixtureItem.match_status_normalised"
-      :matchStatus="fixtureItem.match_status"
-      :matchTime="fixtureItem.match_time"
-      :teamHome="fixtureItem.team_A"
-      :teamAway="fixtureItem.team_B"
+      :timestamp="fixtureItem.utcDate"
+      :gameStatus="fixtureItem.status"
+      :matchStatus="fixtureItem.status"
+      :matchTime="fixtureItem.utcDate"
+      :teamHome="fixtureItem.homeTeam"
+      :teamAway="fixtureItem.awayTeam"
+      :score="fixtureItem.score.fullTime"
     />
   </span>
   

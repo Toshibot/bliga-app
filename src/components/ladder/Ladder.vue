@@ -1,17 +1,17 @@
 <template>
-  <h2>Ladder</h2>
+  <h2>Tabelle</h2>
   <LadderHeader />
   <div v-for="ladderitem in ladderData" :key="ladderitem.id">
     <LadderItem 
-      :position="ladderitem.stats.position"
-      :clubicon="clubData[ladderitem.code].logo"
-      :clubname="clubData[ladderitem.code].name"
-      :played="ladderitem.stats.played"
-      :wins="ladderitem.stats.won"
-      :losses="ladderitem.stats.lost"
-      :draws="ladderitem.stats.drawn"
-      :percentage="ladderitem.stats.percentage"
-      :points="ladderitem.stats.points"
+      :position="ladderitem.position"
+      :clubicon="clubData[ladderitem.team.id].logo"
+      :clubname="clubData[ladderitem.team.id].name"
+      :played="ladderitem.playedGames"
+      :wins="ladderitem.won"
+      :losses="ladderitem.lost"
+      :draws="ladderitem.draw"
+      :goaldifference="ladderitem.goalDifference"
+      :points="ladderitem.points"
     />
   </div>
 </template>

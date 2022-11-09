@@ -2,11 +2,11 @@
   <div class="fixture-team">
     <IconKit :source="kitsource" :size="161" class="icon-kit" />
     <span class="fixture-team-name">{{teamname}}</span>
-    <span v-if="gameStatus === 'pre'" class="fixture-team-score">
+    <span v-if="gameStatus === 'SCHEDULED'" class="fixture-team-score">
       -
     </span>
     <span v-else class="fixture-team-score">
-      {{goals}}.{{behinds}}.<span class="fixture-team-score-total">{{totalscore}}</span>
+      <span class="fixture-team-score-total">{{totalscore}}</span>
     </span>
   </div>
 </template>

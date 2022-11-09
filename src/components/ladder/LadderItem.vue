@@ -20,7 +20,7 @@
       {{draws}}
     </div>
     <div class="ladder-item-percentage">
-      {{percentage}}
+      {{goaldifference}}
     </div>
     <div class="ladder-item-points">
       {{points}}
@@ -98,20 +98,32 @@
       }
     }
 
-    &-1,
-    &-2,
-    &-3,
+    &-1 {
+        background: $color-green;
+        color: $color-black;      
+    }
+    &-2, 
+    &-3, 
     &-4 {
-      color: $color-black;
-      background: $color-white;
+        background: $color-blue-light;
+        color: $color-black;
     }
 
     &-5,
-    &-6,
-    &-7,
-    &-8 {
-      color: $color-black;
-      background: $color-offwhite;
+    &-6 {
+        background: $color-orange;
+        color: $color-black;
+    }
+
+    &-16 {
+        background: $color-yellow;
+        color: $color-black;
+    }
+
+    &-17,
+    &-18 {
+        background: $color-red-light;
+        color: $color-black;
     }
   }
 </style>
@@ -140,7 +152,7 @@ export default {
     draws: {
       type: Number
     },
-    percentage: {
+    goaldifference: {
       type: Number
     },
     points: {

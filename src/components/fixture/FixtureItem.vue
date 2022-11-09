@@ -1,36 +1,31 @@
 <template>
-  <div class="fixture-item" :class="[{current: fixtureRoundNumber === roundNumber, live: gameStatus === 'live', post: gameStatus === 'post'}]">
+  <div class="fixture-item" :class="[{current: fixtureRoundNumber === roundNumber, live: gameStatus === 'LIVE', post: gameStatus === 'FINISHED'}]">
     <div class="fixture-date">
-      <span v-if="gameStatus === 'pre' || gameStatus === 'post'">
+      <span v-if="gameStatus === 'SCHEDULED' || gameStatus === 'FINISHED'">
         <span class="fixture-date-day">{{gameTime(timestamp).day}}</span>
         <span class="fixture-date-month">{{gameTime(timestamp).month}}</span>
         <span class="fixture-date-date">{{gameTime(timestamp).date}}</span>
       </span>
-      <span v-if="gameStatus === 'pre'" class="fixture-date-time">{{gameTime(timestamp).time}}</span>
-      <span v-else-if="gameStatus === 'post'" class="fixture-date-time">FT</span>
-      <span v-else-if="gameStatus === 'live'" class="fixture-date-time">
+      <span v-if="gameStatus === 'SCHEDULED'" class="fixture-date-time">{{gameTime(timestamp).time}}</span>
+      <span v-else-if="gameStatus === 'FINISHED'" class="fixture-date-time">FT</span>
+      <span v-else-if="gameStatus === 'LIVE'" class="fixture-date-time">
         <span class="fixture-live">LIVE </span>
         {{matchStatus}} {{matchTime}}
       </span>
     </div>
     <FixtureTeam 
-      :kitsource="homeTeamKit(clubData, teamHome.code)"
+      :kitsource="homeTeamKit(clubData, teamHome.id)"
       :gameStatus="gameStatus"
-      :teamname="clubData[teamHome.code].name"
-      :goals="teamHome.goals"
-      :behinds="teamHome.behinds"
-      :totalscore="teamHome.score"
+      :teamname="clubData[teamHome.id].name"
+      :totalscore="score.homeTeam"
     />
     <div class="fixture-vs">vs</div>
     <FixtureTeam 
-      :kitsource="awayTeamKit(clubData, teamHome.code, teamAway.code)"
+      :kitsource="awayTeamKit(clubData, teamHome.id, teamAway.id)"
       :gameStatus="gameStatus"
-      :teamname="clubData[teamAway.code].name"
-      :goals="teamAway.goals"
-      :behinds="teamAway.behinds"
-      :totalscore="teamAway.score"
+      :teamname="clubData[teamAway.id].name"
+      :totalscore="score.awayTeam"
     />
-    <div class="fixture-venue">{{venue}}</div>
   </div>
 </template>
 <script lang="ts">
@@ -84,19 +79,18 @@ export default {
       },
       teamAway: {
         type: Object
+      },
+      score: {
+        type: Object
       }
     },
     components: { FixtureTeam },
     methods: {
       homeTeamKit(clubData:any, teamkey: any) {
-        return clubData[teamkey].kit.home
+        return clubData[teamkey].kits.home.file
       },
       awayTeamKit(clubData:any, hometeamkey: any, awayteamkey: any) {
-        if (clubData[awayteamkey].kit.clash.teams.includes(hometeamkey)) {
-          return clubData[awayteamkey].kit.clash.kit
-        } else {
-          return clubData[awayteamkey].kit.away
-        }
+        return clubData[awayteamkey].kits.away.file
       },
       gameTime(timestamp:any) {
         let date = new Date(timestamp);
@@ -157,7 +151,7 @@ export default {
     &.current {
       display: inline-block;
       margin: 0 17px 17px 0;
-      padding: 0 17px;
+      padding: 23px 17px 44.5px;
       width: 350px;
 
       @media screen and (max-width: $break-m) {
