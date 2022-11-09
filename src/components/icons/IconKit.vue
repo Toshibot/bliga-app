@@ -1,4 +1,3 @@
-
 <template>
   <img 
     :src="source"

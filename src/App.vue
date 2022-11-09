@@ -9,7 +9,7 @@
 <template>
   <body id="Body" class="t-dark">
     <main class="o-main u-vert-center">
-      <section v-if="getCurrentRound(roundData) < 24" class="o-section u-flex">
+      <section class="o-section u-flex">
         <h1 class="o-section__title">Season 2022</h1>
         <article class="c-ladder__container u-col-5@lg u-col-12@md u-padding-col">
           <div class="js-ladder">
@@ -23,12 +23,6 @@
             </div>
           </div>
         </article>
-      </section>
-      <section v-else class="o-section u-flex">
-        <h1 class="o-section__title">Finals 2022</h1>
-        <div class="c-finals">
-          <Finals :fixtureData="fixtureData" :clubData="clubData" :roundNumber="getCurrentRound(roundData)" />
-        </div>
       </section>
     </main>
   </body>
@@ -91,17 +85,7 @@ export default {
   },
   methods: {
     getCurrentRound(roundData:any){
-      let target_date = new Date();
-
-      for (let i = 0; i < roundData.length; i++) {
-          let round = roundData[i];
-          let round_start = new Date(round.start);
-          let round_end = new Date(round.end);
-
-          if (round_start < target_date && target_date < round_end ) {
-              return round.round;
-          } 
-      }
+      return 14;
     },
     getFinals(fixtureData:any){
       for (let i = 0; i < fixtureData.length; i++) {

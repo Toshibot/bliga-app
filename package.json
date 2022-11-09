@@ -1,7 +1,7 @@
 {
-  "name": "footy-app",
-  "version": "0.0.0",
-  "homepage": "http://toshibot.github.io/footy-app",
+  "name": "bliga-app",
+  "version": "0.0.1",
+  "homepage": "http://toshibot.github.io/bliga-app",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "run-p": "^0.0.0",
     "vue": "^3.2.37",
     "vuex": "^4.0.2"
   },
