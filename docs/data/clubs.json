@@ -1,0 +1,236 @@
+{
+    "ADE": {
+        "name": "Adelaide",
+        "logo": "img/teams/ADE.png",
+        "pattern": "img/teams/ADE.svg",
+        "kit": {
+            "home": "img/teams/ADE-home.png",
+            "away": "img/teams/ADE-away.png",
+            "clash": {
+                "kit": "img/teams/ADE-home.png",
+                "teams": ["HAW"]
+            }
+        }
+    },
+    "BRI": {
+        "name": "Brisbane",
+        "logo": "img/teams/BRI.png",
+        "pattern": "img/teams/BRI.svg",
+        "kit": {
+            "home": "img/teams/BRI-home.png",
+            "away": "img/teams/BRI-away.png",
+            "clash": {
+                "kit": "img/teams/BRI-clash.png",
+                "teams": ["SYD","GWS","GCS","WCE","ADE","FRE","POR", "MEL"]
+            }
+        }
+    },
+    "CAR": {
+        "name": "Carlton",
+        "logo": "img/teams/CAR.png",
+        "pattern": "img/teams/CAR.svg",
+        "kit": {
+            "home": "img/teams/CAR-home.png",
+            "away": "img/teams/CAR-clash.png",
+            "clash": {
+                "kit": "img/teams/CAR-home.png",
+                "teams": ["GEE", "SYD"]
+            }
+        }
+    },
+    "COL": {
+        "name": "Collingwood",
+        "logo": "img/teams/COL.png",
+        "pattern": "img/teams/COL.svg",
+        "kit": {
+            "home": "img/teams/COL-home.png",
+            "away": "img/teams/COL-clash.png",
+            "clash": {
+                "kit": "img/teams/COL-home.png",
+                "teams": ["SYD", "GEE"]
+            }
+        }
+    },
+    "ESS": {
+        "name": "Essendon",
+        "logo": "img/teams/ESS.png",
+        "pattern": "img/teams/ESS.svg",
+        "kit": {
+            "home": "img/teams/ESS-home.png",
+            "away": "img/teams/ESS-home.png",
+            "clash": {
+                "kit": "img/teams/ESS-clash.png",
+                "teams": ["MEL", "COL", "CAR", "POR", "STK", "RIC"]
+            }
+        }
+    },
+    "FRE": {
+        "name": "Fremantle",
+        "logo": "img/teams/FRE.png",
+        "pattern": "img/teams/FRE.svg",
+        "kit": {
+            "home": "img/teams/FRE-home.png",
+            "away": "img/teams/FRE-away.png",
+            "clash": {
+                "kit": "img/teams/FRE-home.png",
+                "teams": ["SYD", "GEE"]
+            }
+        }
+    },
+    "GEE": {
+        "name": "Geelong",
+        "logo": "img/teams/GEE.png",
+        "pattern": "img/teams/GEE.svg",
+        "kit": {
+            "home": "img/teams/GEE-home.png",
+            "away": "img/teams/GEE-home.png",
+            "clash": {
+                "kit": "img/teams/GEE-clash.png",
+                "teams": []
+            }
+        }
+    },
+    "GCS": {
+        "name": "Gold Coast",
+        "logo": "img/teams/GCS.png",
+        "pattern": "img/teams/GCS.svg",
+        "kit": {
+            "home": "img/teams/GCS-home.png",
+            "away": "img/teams/GCS-away.png",
+            "clash": {
+                "kit": "img/teams/GCS-home.png",
+                "teams": ["WBD", "CAR", "FRE", "NM", "WCE"]
+            }
+        }
+    },
+    "GWS": {
+        "name": "Gr. W. Sydney",
+        "logo": "img/teams/GWS.png",
+        "pattern": "img/teams/GWS.svg",
+        "kit": {
+            "home": "img/teams/GWS-home.png",
+            "away": "img/teams/GWS-away.png",
+            "clash": {
+                "kit": "img/teams/GWS-home.png",
+                "teams": ["SYD", "GEE"]
+            }
+        }
+    },
+    "HAW": {
+        "name": "Hawthorn",
+        "logo": "img/teams/HAW.png",
+        "pattern": "img/teams/HAW.svg",
+        "kit": {
+            "home": "img/teams/HAW-home.png",
+            "away": "img/teams/HAW-away.png",
+            "clash": {
+                "kit": "img/teams/HAW-home.png",
+                "teams": []
+            }
+        }
+    },
+    "MEL": {
+        "name": "Melbourne",
+        "logo": "img/teams/MEL.png",
+        "pattern": "img/teams/MEL.svg",
+        "kit": {
+            "home": "img/teams/MEL-home.png",
+            "away": "img/teams/MEL-clash.png",
+            "clash": {
+                "kit": "img/teams/MEL-home.png",
+                "teams": []
+            }
+        }
+    },
+    "NM": {
+        "name": "N. Melbourne",
+        "logo": "img/teams/NM.png",
+        "pattern": "img/teams/NM.svg",
+        "kit": {
+            "home": "img/teams/NM-home.png",
+            "away": "img/teams/NM-clash.png",
+            "clash": {
+                "kit": "img/teams/NM-home.png",
+                "teams": ["COL"]
+            }
+        }
+    },
+    "POR": {
+        "name": "Port Adelaide",
+        "logo": "img/teams/POR.png",
+        "pattern": "img/teams/POR.svg",
+        "kit": {
+            "home": "img/teams/POR-home.png",
+            "away": "img/teams/POR-clash.png",
+            "clash": {
+                "kit": "img/teams/POR-home.png",
+                "teams": ["SYD", "GEE"]
+            }
+        }
+    },
+    "RIC": {
+        "name": "Richmond",
+        "logo": "img/teams/RIC.png",
+        "pattern": "img/teams/RIC.svg",
+        "kit": {
+            "home": "img/teams/RIC-home.png",
+            "away": "img/teams/RIC-away.png",
+            "clash": {
+                "kit": "img/teams/RIC-home.png",
+                "teams": ["HAW"]
+            }
+        }
+    },
+    "STK": {
+        "name": "St. Kilda",
+        "logo": "img/teams/STK.png",
+        "pattern": "img/teams/STK.svg",
+        "kit": {
+            "home": "img/teams/STK-home.png",
+            "away": "img/teams/STK-away.png",
+            "clash": {
+                "kit": "img/teams/STK-home.png",
+                "teams": ["SYD", "GEE"]
+            }
+        }
+    },
+    "SYD": {
+        "name": "Sydney",
+        "logo": "img/teams/SYD.png",
+        "pattern": "img/teams/SYD.svg",
+        "kit": {
+            "home": "img/teams/SYD-home.png",
+            "away": "img/teams/SYD-home.png",
+            "clash": {
+                "kit": "img/teams/SYD-home.png",
+                "teams": [""]
+            }
+        }
+    },
+    "WBD": {
+        "name": "W. Bulldogs",
+        "logo": "img/teams/WBD.png",
+        "pattern": "img/teams/WBD.svg",
+        "kit": {
+            "home": "img/teams/WBD-home.png",
+            "away": "img/teams/WBD-away.png",
+            "clash": {
+                "kit": "img/teams/WBD-home.png",
+                "teams": ["SYD","GEE"]
+            }
+        }
+    },
+    "WCE": {
+        "name": "West Coast",
+        "logo": "img/teams/WCE.png",
+        "pattern": "img/teams/WCE.svg",
+        "kit": {
+            "home": "img/teams/WCE-home.png",
+            "away": "img/teams/WCE-away.png",
+            "clash": {
+                "kit": "img/teams/WCE-home.png",
+                "teams": ["HAW"]
+            }
+        }
+    }
+}
