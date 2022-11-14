@@ -53,8 +53,9 @@
       text-align: left;
 
       @media screen and (max-width: $break-s) {
-        flex-basis: 58.333%;
-        max-width: 58.333%;
+        flex-basis: 75%;
+        max-width: 75%;
+        padding-left: $size-base-s;
       }
 
       img {
@@ -82,10 +83,21 @@
       text-align: center;
     }
 
+    &-position {
+      @media screen and (max-width: $break-s) {
+        display: none !important;
+      }
+    }
+
     &-percentage {
       flex-basis: 16.667%;
       max-width: 16.667%;
       text-align: center;
+
+      @media screen and (max-width: $break-s) {
+        flex-basis: 8.333%;
+        max-width: 8.333%;
+      }
     }
 
     &-wins,
