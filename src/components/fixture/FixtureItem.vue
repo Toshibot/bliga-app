@@ -90,7 +90,16 @@ export default {
         return clubData[teamkey].kits.home.file
       },
       awayTeamKit(clubData:any, hometeamkey: any, awayteamkey: any) {
-        return clubData[awayteamkey].kits.away.file
+        let home_team_kit = clubData[hometeamkey].kits.home;
+        var away_team_kit = clubData[awayteamkey].kits.away;
+        var away_kit = away_team_kit.file;
+        var third_kit = clubData[awayteamkey].kits.third.file;
+
+        if (home_team_kit.tone == away_team_kit.tone){
+            return third_kit;
+        } else {
+            return away_kit;
+        }
       },
       gameTime(timestamp:any) {
         let date = new Date(timestamp);
