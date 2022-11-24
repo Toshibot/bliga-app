@@ -95,6 +95,10 @@ export default {
 }
 </script>
 <style scoped lang="scss">
+  .t-dark {
+    color: $color-white;
+    background-color: $color-black;
+  }
   .hidden {
     display: none;
   }

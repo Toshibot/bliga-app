@@ -18,7 +18,6 @@
 // ---------
 @import '_variables/_breakpoints.scss';
 @import '_variables/_colors.scss';
-@import '_variables/_heights.scss';
 @import '_variables/_widths.scss';
 // *
 
@@ -28,20 +27,6 @@
 @import '_mixins/_cosmetic.scss';
 @import '_mixins/_transitions.scss';
 @import '_mixins/_structure.scss';
-// *
-
-// ***
-// Fonts
-// -----
-// This must be loaded at the start of the
-// CSS file or the fonts will not load.
-@import '_variables/_fonts.scss';
-// *
-
-// ***
-// Scope
-// -----
-@import '_scope/_healthcheck.scss';
 // *
 
 // ***
@@ -55,12 +40,4 @@
 @import '_utilities/_grid.scss';
 @import '_utilities/_padding.scss';
 @import '_utilities/_columns.scss';
-@import '_utilities/_vert-center.scss';
-// *
-
-// ***
-// Themes
-// ------
-@import '_themes/_dark.scss';
-@import '_themes/_light.scss';
 // *
