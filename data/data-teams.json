@@ -15,7 +15,7 @@
             },
             "third":{
                 "tone":"light",
-                "color":"blue",
+                "color":"white",
                 "file":"img/teams/Freiburg/Third.png"
             }
         }
@@ -30,8 +30,8 @@
                 "file":"img/teams/Bayern/Home.png"
             },
             "away":{
-                "tone":"dark",
-                "color":"black",
+                "tone":"light",
+                "color":"white",
                 "file":"img/teams/Bayern/Away.png"
             },
             "third":{
@@ -52,7 +52,7 @@
             },
             "away":{
                 "tone":"dark",
-                "color":"red",
+                "color":"black",
                 "file":"img/teams/Dortmund/Away.png"
             },
             "third":{
@@ -77,9 +77,9 @@
                 "file":"img/teams/Hertha/Away.png"
             },
             "third":{
-                "tone":"light",
-                "color":"white",
-                "file":"img/teams/Hertha/Home.png"
+                "tone":"mid",
+                "color":"red",
+                "file":"img/teams/Hertha/Third.png"
             }
         }
     },
@@ -88,18 +88,18 @@
         "logo":"img/teams/Augsburg/Logo.png",
         "kits":{
             "home":{
-                "tone":"light",
-                "color":"white",
+                "tone":"mid",
+                "color":"red",
                 "file":"img/teams/Augsburg/Home.png"
             },
             "away":{
-                "tone":"mid",
-                "color":"green",
+                "tone":"light",
+                "color":"white",
                 "file":"img/teams/Augsburg/Away.png"
             },
             "third":{
-                "tone":"dark",
-                "color":"black",
+                "tone":"mid",
+                "color":"grey",
                 "file":"img/teams/Augsburg/Third.png"
             }
         }
@@ -109,19 +109,19 @@
         "logo":"img/teams/Bremen/Logo.png",
         "kits":{
             "home":{
-                "tone":"mid",
+                "tone":"light",
                 "color":"green",
                 "file":"img/teams/Bremen/Home.png"
             },
             "away":{
                 "tone":"light",
-                "color":"white",
+                "color":"pink",
                 "file":"img/teams/Bremen/Away.png"
             },
             "third":{
-                "tone":"light",
-                "color":"white",
-                "file":"img/teams/Bremen/Home.png"
+                "tone":"dark",
+                "color":"green",
+                "file":"img/teams/Bremen/Third.png"
             }
         }
     },
@@ -150,19 +150,19 @@
         "logo":"img/teams/Frankfurt/Logo.png",
         "kits":{
             "home":{
-                "tone":"dark",
-                "color":"black",
+                "tone":"light",
+                "color":"white",
                 "file":"img/teams/Frankfurt/Home.png"
             },
             "away":{
-                "tone":"light",
-                "color":"white",
+                "tone":"dark",
+                "color":"black",
                 "file":"img/teams/Frankfurt/Away.png"
             },
             "third":{
-                "tone":"dark",
-                "color":"black",
-                "file":"img/teams/Frankfurt/Home.png"
+                "tone":"mid",
+                "color":"red",
+                "file":"img/teams/Frankfurt/Third.png"
             }
         }
     },
@@ -176,14 +176,14 @@
                 "file":"img/teams/Gladbach/Home.png"
             },
             "away":{
-                "tone":"dark",
-                "color":"black",
+                "tone":"mid",
+                "color":"green",
                 "file":"img/teams/Gladbach/Away.png"
             },
             "third":{
-                "tone":"light",
-                "color":"white",
-                "file":"img/teams/Gladbach/Home.png"
+                "tone":"dark",
+                "color":"black",
+                "file":"img/teams/Gladbach/Third.png"
             }
         }
     },
@@ -219,12 +219,12 @@
             },
             "away":{
                 "tone":"light",
-                "color":"white",
+                "color":"brown",
                 "file":"img/teams/Hoffenheim/Away.png"
             },
             "third":{
                 "tone":"dark",
-                "color":"red",
+                "color":"black",
                 "file":"img/teams/Hoffenheim/Third.png"
             }
         }
@@ -239,14 +239,14 @@
                 "file":"img/teams/Leipzig/Home.png"
             },
             "away":{
-                "tone":"dark",
-                "color":"blue",
+                "tone":"mid",
+                "color":"red",
                 "file":"img/teams/Leipzig/Away.png"
             },
             "third":{
-                "tone":"light",
-                "color":"white",
-                "file":"img/teams/Leipzig/Home.png"
+                "tone":"dark",
+                "color":"black",
+                "file":"img/teams/Leipzig/Third.png"
             }
         }
     },
@@ -255,18 +255,18 @@
         "logo":"img/teams/Leverkusen/Logo.png",
         "kits":{
             "home":{
-                "tone":"dark",
-                "color":"black",
+                "tone":"mid",
+                "color":"red",
                 "file":"img/teams/Leverkusen/Home.png"
             },
             "away":{
-                "tone":"light",
-                "color":"white",
+                "tone":"dark",
+                "color":"black",
                 "file":"img/teams/Leverkusen/Away.png"
             },
             "third":{
-                "tone":"mid",
-                "color":"blue",
+                "tone":"light",
+                "color":"white",
                 "file":"img/teams/Leverkusen/Third.png"
             }
         }
@@ -276,19 +276,19 @@
         "logo":"img/teams/Mainz/Logo.png",
         "kits":{
             "home":{
-                "tone":"light",
-                "color":"white",
+                "tone":"mid",
+                "color":"red",
                 "file":"img/teams/Mainz/Home.png"
             },
             "away":{
                 "tone":"dark",
-                "color":"black",
+                "color":"blue",
                 "file":"img/teams/Mainz/Away.png"
             },
             "third":{
                 "tone":"light",
                 "color":"white",
-                "file":"img/teams/Mainz/home.png"
+                "file":"img/teams/Mainz/Third.png"
             }
         }
     },
@@ -329,8 +329,8 @@
             },
             "third":{
                 "tone":"mid",
-                "color":"blue",
-                "file":"img/teams/Schalke/Home.png"
+                "color":"green",
+                "file":"img/teams/Schalke/Third.png"
             }
         }
     },
@@ -349,9 +349,9 @@
                 "file":"img/teams/Stuttgart/Away.png"
             },
             "third":{
-                "tone":"light",
-                "color":"white",
-                "file":"img/teams/Stuttgart/Home.png"
+                "tone":"dark",
+                "color":"black",
+                "file":"img/teams/Stuttgart/Third.png"
             }
         }
     },
@@ -365,8 +365,8 @@
                 "file":"img/teams/Wolfsburg/Home.png"
             },
             "away":{
-                "tone":"light",
-                "color":"white",
+                "tone":"dark",
+                "color":"black",
                 "file":"img/teams/Wolfsburg/Away.png"
             },
             "third":{
@@ -381,19 +381,19 @@
         "logo":"img/teams/Union/Logo.png",
         "kits":{
             "home":{
-                "tone":"light",
-                "color":"yellow",
+                "tone":"mid",
+                "color":"red",
                 "file":"img/teams/Union/Home.png"
             },
             "away":{
                 "tone":"light",
-                "color":"white",
+                "color":"brown",
                 "file":"img/teams/Union/Away.png"
             },
             "third":{
-                "tone":"light",
-                "color":"yellow",
-                "file":"img/teams/Union/Home.png"
+                "tone":"dark",
+                "color":"black",
+                "file":"img/teams/Union/Third.png"
             }
         }
     },
@@ -434,7 +434,7 @@
             },
             "third":{
                 "tone":"dark",
-                "color":"black",
+                "color":"blue",
                 "file":"img/teams/Koeln/Third.png"
             }
         }
@@ -449,13 +449,13 @@
                 "file":"img/teams/Bochum/Home.png"
             },
             "away":{
-                "tone":"light",
-                "color":"white",
+                "tone":"mid",
+                "color":"blue",
                 "file":"img/teams/Bochum/Away.png"
             },
             "third":{
-                "tone":"dark",
-                "color":"blue",
+                "tone":"light",
+                "color":"white",
                 "file":"img/teams/Bochum/Home.png"
             }
         }
