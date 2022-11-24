@@ -162,7 +162,7 @@ export default {
   }
 
   .fixture-date {
-    padding: 26px 0 3px;
+    padding: 20px 0 9.5px;
     line-height: 1.5;
     font-weight: 600;
 
