@@ -121,14 +121,14 @@
     }
 
     &-16 {
-        background: $color-yellow;
-        color: $color-black;
+        background: $color-yellow-dark;
+        color: $color-white;
     }
 
     &-17,
     &-18 {
-        background: $color-red-light;
-        color: $color-black;
+        background: $color-red-dark;
+        color: $color-white;
     }
   }
 </style>
