@@ -57,7 +57,8 @@ export default {
     // Ladder Data - Remote
     axios.get('https://api.football-data.org/v2/competitions/2002/standings', {
       headers:{
-        "X-Auth-Token": "5c8b70988e784fca8186b93d38b1bae7"
+        "X-Auth-Token": "5c8b70988e784fca8186b93d38b1bae7",
+        "Access-Control-Allow-Origin": "http://bliga.toshibot.com"
       }
     })
       .then(response => {
@@ -72,7 +73,8 @@ export default {
     // Fixture Data - Remote
     axios.get('https://api.football-data.org/v2/competitions/2002/matches', {
       headers:{
-        "X-Auth-Token": "5c8b70988e784fca8186b93d38b1bae7"
+        "X-Auth-Token": "5c8b70988e784fca8186b93d38b1bae7",
+        "Access-Control-Allow-Origin": "http://bliga.toshibot.com"
       }
     })
       .then(response => {
